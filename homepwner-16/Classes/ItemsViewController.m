@@ -9,6 +9,7 @@
 #import "ItemsViewController.h"
 #import "Possession.h"
 #import "ItemDetailViewController.h"
+#import "HomepwnerItemCell.h"
 
 @implementation ItemsViewController
 
@@ -110,17 +111,30 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-	// Check for a reusable cell first, use that if it exists 
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"]; 
-	if (!cell)
-		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCell"] autorelease];	
+	if ([indexPath row] >= [possessions count]) {
+		UITableViewCell *basicCell = [tableView
+									  dequeueReusableCellWithIdentifier:@"UITableViewCell"];
 		
-	// If the table view is filling a row with a possession in it, do as normal 
-	if ([indexPath row] < [possessions count])
-		[[cell textLabel] setText:[[possessions objectAtIndex:[indexPath row]] description]];
-	else // Otherwise, if we are editing we have one extra row - place this text in that row
-		[[cell textLabel] setText:@"Add New Item..."];
+		if (!basicCell) {
+			basicCell = [[[UITableViewCell alloc]
+						  initWithStyle:UITableViewCellStyleDefault
+						  reuseIdentifier:@"UITableViewCell"] autorelease];
+		}
+		
+		return basicCell;
+	}
+	
+	HomepwnerItemCell *cell = (HomepwnerItemCell *)[tableView
+													dequeueReusableCellWithIdentifier:@"HomepwnerItemCell"];
+	
+	if (!cell) {
+		cell = [[[HomepwnerItemCell alloc]
+				 initWithStyle:UITableViewCellStyleDefault
+				 reuseIdentifier:@"HomepwnerItemCell"] autorelease];
+	}
 
+	Possession *p = [possessions objectAtIndex:[indexPath row]];
+	[cell setPossession:p];
 	return cell;
 }
 

@@ -95,13 +95,46 @@
 	[encoder encodeObject:imageKey forKey:@"imageKey"];
 }
 
+- (UIImage *)thumbnail {
+	if (!thumbnailData) {
+		return nil;
+	}
+	
+	if (!thumbnail) {
+		thumbnail = [[UIImage imageWithData:thumbnailData] retain];
+	}
+	
+	return thumbnail;
+}
 
 - (NSString *)description {
 	return [NSString stringWithFormat:@"%@ (%@): Worth $%d, Recorded on %@",
             possessionName, serialNumber, valueInDollars, dateCreated];
 }
 
+- (void) setThumbnailDataFromImage: (UIImage *)image {
+
+	[thumbnailData release];
+	[thumbnail release];
+	
+	CGRect imageRect = CGRectMake(0, 0, 70, 70);
+	UIGraphicsBeginImageContext(imageRect.size);
+	
+	[image drawInRect:imageRect];
+	
+	thumbnail = UIGraphicsGetImageFromCurrentImageContext();
+	[thumbnail retain];
+	
+	UIGraphicsEndImageContext();
+	
+	thumbnailData = UIImageJPEGRepresentation(thumbnail, 0.5);
+	
+	[thumbnailData retain];
+}
+
 - (void)dealloc {
+	[thumbnail release];
+	[thumbnailData release];
 	[possessionName release]; 
 	[serialNumber release];
 	[dateCreated release];

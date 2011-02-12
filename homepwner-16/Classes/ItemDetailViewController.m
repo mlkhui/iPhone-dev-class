@@ -96,6 +96,8 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
    	[[ImageCache sharedImageCache] setImage:image forKey:[editingPossession imageKey]];
     [imageView setImage:image];
 
+	[editingPossession setThumbnailDataFromImage:image];
+	
 	// Take image picker off the screen
 	[self dismissModalViewControllerAnimated:YES];
 }
