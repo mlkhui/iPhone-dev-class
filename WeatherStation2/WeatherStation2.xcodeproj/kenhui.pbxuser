@@ -9,8 +9,8 @@
 	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {812, 312}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 307}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 297}";
 		};
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
@@ -24,6 +24,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 6CDBCD70130846360060D326 /* WeatherStation2 */;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* WeatherStation2 */;
 		codeSenseManager = 6CDBCD80130846430060D326 /* Code sense */;
 		executables = (
@@ -37,7 +38,7 @@
 					20,
 					634,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -52,17 +53,105 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 319309366;
-			PBXWorkspaceStateSaveDate = 319309366;
+			PBXPerProjectTemplateStateSaveDate = 319311870;
+			PBXWorkspaceStateSaveDate = 319311870;
 		};
 		perUserProjectItems = {
-			6CDBCD85130846600060D326 /* PBXTextBookmark */ = 6CDBCD85130846600060D326 /* PBXTextBookmark */;
-			6CDBCD86130846600060D326 /* PBXTextBookmark */ = 6CDBCD86130846600060D326 /* PBXTextBookmark */;
-			6CDBCD87130846600060D326 /* PBXTextBookmark */ = 6CDBCD87130846600060D326 /* PBXTextBookmark */;
+			6CBCB88513085002004F6726 /* PBXTextBookmark */ = 6CBCB88513085002004F6726 /* PBXTextBookmark */;
+			6CBCB88613085002004F6726 /* PBXTextBookmark */ = 6CBCB88613085002004F6726 /* PBXTextBookmark */;
+			6CBCB88713085005004F6726 /* PBXTextBookmark */ = 6CBCB88713085005004F6726 /* PBXTextBookmark */;
+			6CBCB88A1308500F004F6726 /* PBXTextBookmark */ = 6CBCB88A1308500F004F6726 /* PBXTextBookmark */;
+			6CBCB88B13085010004F6726 /* PBXTextBookmark */ = 6CBCB88B13085010004F6726 /* PBXTextBookmark */;
+			6CBCB88C13085010004F6726 /* PBXTextBookmark */ = 6CBCB88C13085010004F6726 /* PBXTextBookmark */;
+			6CBCB8971308501E004F6726 /* PBXTextBookmark */ = 6CBCB8971308501E004F6726 /* PBXTextBookmark */;
+			6CBCB89813085025004F6726 /* PBXTextBookmark */ = 6CBCB89813085025004F6726 /* PBXTextBookmark */;
+			6CDBCD85130846600060D326 = 6CDBCD85130846600060D326 /* PBXTextBookmark */;
+			6CDBCD86130846600060D326 = 6CDBCD86130846600060D326 /* PBXTextBookmark */;
+			6CDBCD87130846600060D326 = 6CDBCD87130846600060D326 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6CDBCD7F130846430060D326 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	6CBCB88513085002004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 0;
+	};
+	6CBCB88613085002004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 0;
+	};
+	6CBCB88713085005004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 0;
+	};
+	6CBCB88A1308500F004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	6CBCB88B13085010004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 0;
+	};
+	6CBCB88C13085010004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 204;
+		vrLoc = 0;
+	};
+	6CBCB8971308501E004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 6";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 0;
+	};
+	6CBCB89813085025004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 6";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 0;
 	};
 	6CDBCD70130846360060D326 /* WeatherStation2 */ = {
 		isa = PBXExecutable;
@@ -80,6 +169,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -87,6 +177,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = WeatherStation2;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
