@@ -6,11 +6,11 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "WeatherStation2AppDelegate.h"
-#import "RootViewController.h"
+#import "AppController.h"
+#import "StationsController.h"
 
 
-@implementation WeatherStation2AppDelegate
+@implementation AppController
 
 @synthesize window;
 @synthesize navigationController;
@@ -21,7 +21,7 @@
 
 - (void)awakeFromNib {    
     
-    RootViewController *rootViewController = (RootViewController *)[navigationController topViewController];
+    StationsController *rootViewController = (StationsController *)[navigationController topViewController];
     rootViewController.managedObjectContext = self.managedObjectContext;
 }
 
