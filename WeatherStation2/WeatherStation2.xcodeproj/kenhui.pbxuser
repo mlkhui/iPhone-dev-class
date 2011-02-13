@@ -24,17 +24,17 @@
 	};
 	28C286DF0D94DF7D0034E888 /* StationsController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 338}}";
+			sepNavIntBoundsRect = "{{0, 0}, {909, 437}}";
 			sepNavSelRange = "{202, 0}";
-			sepNavVisRange = "{0, 417}";
+			sepNavVisRange = "{0, 586}";
 		};
 	};
 	28C286E00D94DF7D0034E888 /* StationsController.m */ = {
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{6269, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{6320, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{6370, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 12262}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1118, 4693}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 4628}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1230}";
+			sepNavVisRange = "{0, 896}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -55,7 +55,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					634,
+					731,
 					20,
 					48,
 					43,
@@ -72,8 +72,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 319312565;
-			PBXWorkspaceStateSaveDate = 319312565;
+			PBXPerProjectTemplateStateSaveDate = 319313467;
+			PBXWorkspaceStateSaveDate = 319313467;
 		};
 		perUserProjectItems = {
 			6CBCB88513085002004F6726 = 6CBCB88513085002004F6726 /* PBXTextBookmark */;
@@ -110,6 +110,11 @@
 			6CBCB8CF130851EA004F6726 = 6CBCB8CF130851EA004F6726 /* PBXTextBookmark */;
 			6CBCB8D0130851F3004F6726 = 6CBCB8D0130851F3004F6726 /* PBXTextBookmark */;
 			6CBCB8D113085263004F6726 = 6CBCB8D113085263004F6726 /* PBXTextBookmark */;
+			6CBCB93D13085640004F6726 /* PBXBookmark */ = 6CBCB93D13085640004F6726 /* PBXBookmark */;
+			6CBCB93E13085640004F6726 /* PBXTextBookmark */ = 6CBCB93E13085640004F6726 /* PBXTextBookmark */;
+			6CBCB93F13085640004F6726 /* PBXTextBookmark */ = 6CBCB93F13085640004F6726 /* PBXTextBookmark */;
+			6CBCB94013085641004F6726 /* PBXTextBookmark */ = 6CBCB94013085641004F6726 /* PBXTextBookmark */;
+			6CBCB949130856D3004F6726 /* PBXTextBookmark */ = 6CBCB949130856D3004F6726 /* PBXTextBookmark */;
 			6CDBCD85130846600060D326 = 6CDBCD85130846600060D326 /* PBXTextBookmark */;
 			6CDBCD86130846600060D326 = 6CDBCD86130846600060D326 /* PBXTextBookmark */;
 			6CDBCD87130846600060D326 = 6CDBCD87130846600060D326 /* PBXTextBookmark */;
@@ -382,6 +387,13 @@
 			sepNavVisRange = "{0, 163}";
 		};
 	};
+	6CBCB8C1130851B7004F6726 /* StationDetailsController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {909, 437}}";
+			sepNavSelRange = "{147, 0}";
+			sepNavVisRange = "{0, 565}";
+		};
+	};
 	6CBCB8C9130851E0004F6726 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* AppController.h */;
@@ -470,6 +482,50 @@
 		rLoc = 54;
 		rType = 0;
 		vrLen = 484;
+		vrLoc = 0;
+	};
+	6CBCB93D13085640004F6726 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6CBCB8C1130851B7004F6726 /* StationDetailsController.h */;
+	};
+	6CBCB93E13085640004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6CBCB8C1130851B7004F6726 /* StationDetailsController.h */;
+		name = "StationDetailsController.h: 8";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 565;
+		vrLoc = 0;
+	};
+	6CBCB93F13085640004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6CBCB8C1130851B7004F6726 /* StationDetailsController.h */;
+		name = "StationDetailsController.h: 8";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 565;
+		vrLoc = 0;
+	};
+	6CBCB94013085641004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6CBCB8C1130851B7004F6726 /* StationDetailsController.h */;
+		name = "StationDetailsController.h: 8";
+		rLen = 0;
+		rLoc = 148;
+		rType = 0;
+		vrLen = 565;
+		vrLoc = 0;
+	};
+	6CBCB949130856D3004F6726 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6CBCB8C1130851B7004F6726 /* StationDetailsController.h */;
+		name = "StationDetailsController.h: 7";
+		rLen = 0;
+		rLoc = 147;
+		rType = 0;
+		vrLen = 400;
 		vrLoc = 0;
 	};
 	6CDBCD70130846360060D326 /* WeatherStation2 */ = {
